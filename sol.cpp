@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int x, m, d;
 		cin >> x >> m >> d;
-    // find the minimum between the product of 'x' and 'm' and the sum of 'x' and 'd'
+    		// find the minimum between the product of 'x' and 'm' and the sum of 'x' and 'd'
 		cout << min(x * m, x + d) << '\n';
 	}
 	return 0;
